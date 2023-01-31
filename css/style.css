@@ -1,0 +1,98 @@
+:root {
+    --primery-brend-color: #4D5AE5;
+    --active-btn-color: #404BBF;
+
+    --primery-bcg-color: #2E2F42;
+    --backgrond-white-color: #FFFFFF;
+    --secondery-bcg-color: #F4F4FD;
+
+
+    --primery-text-color: #434455;
+    --secondery-text-color: #8E8F99;
+    --accenr-text-color: #E7E9FC;
+    --text-white-color: #FFFFFF;    
+}
+
+body {
+    color: var(--primery-text-color);
+    background-color: var(--backgrond-white-color);
+}
+
+.list {
+list-style: none;
+}
+
+/* Шапка сайта */
+.header {
+    
+}
+
+.logo {
+    color: var(--primery-bcg-color);
+}
+
+.header-nav .link {
+    color: var(--primery-bcg-color);
+}
+
+.header-nav .link:hover,
+.header-nav .link:focus {
+    color: var(--active-btn-color);
+}
+
+.header-contacts .link{
+    color: var(--primery-text-color);
+}
+
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+    color: var(--active-btn-color);
+}
+
+/* Main content */
+/* герой */
+.hero {
+    background-color: var(--primery-bcg-color);
+}
+.hero-title {
+    color: var(--text-white-color);
+}
+.button {
+    background: var(--primery-brend-color)
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--active-btn-color);
+}
+/* Функции */
+
+.section-title {
+    color: var(--primery-bcg-color);
+}
+
+.functions-title {
+    color: var(--primery-bcg-color);
+    
+}
+
+/* Образці работы */
+
+
+/* Команда */
+.section.comand {
+    background-color: var(--secondery-bcg-color);
+}
+.comand-title {
+    color: var(--primery-bcg-color);
+}
+/* Футер */
+.footer {
+    background-color: var(--primery-bcg-color);
+}
+.footer-logo {
+    color: var(--text-white-color);
+}
+.footer-text {
+    color: #E7E9FC;
+}
