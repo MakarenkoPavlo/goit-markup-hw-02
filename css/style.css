@@ -96,3 +96,28 @@ list-style: none;
 .footer-text {
     color: #E7E9FC;
 }
+
+/* Портфолио */
+
+.portfolio-section {
+    background-color: var(--backgrond-white-color);    
+}
+.portfolio-title {
+
+}
+.portfolio-button-list{
+
+}
+.portfolio-button {
+    color: var(--primery-brend-color);
+    background-color: var(--secondery-bcg-color);
+     border: transparent;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--text-white-color);
+    background-color: var(--active-btn-color);
+}
+.portfolio-work-title {
+    color: var(--primery-bcg-color);
+}
