@@ -19,6 +19,7 @@ body {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 400;
     letter-spacing: 0.02em;
 }
 
@@ -42,6 +43,10 @@ list-style: none;
     text-decoration: none;
 }
 
+.logo-decor {
+color: var(--primery-brend-color);
+}
+
 .header-nav .link {
     color: var(--primery-bcg-color);
     font-weight: 500;
@@ -50,6 +55,9 @@ list-style: none;
 
 .header-nav .link:hover,
 .header-nav .link:focus {
+    color: var(--active-btn-color);
+}
+.header-nav .link.current {
     color: var(--active-btn-color);
 }
 
@@ -100,6 +108,7 @@ list-style: none;
     line-height: 1.2;
 }
 .functions-text {
+    
 }
 
 /* Образці работы */
@@ -115,6 +124,9 @@ list-style: none;
 /* Команда */
 .section.comand {
     background-color: var(--secondery-bcg-color);
+}
+.comand-card {
+    background: var(--backgrond-white-color);
 }
 .comand-title {
     color: var(--primery-bcg-color);
@@ -160,6 +172,8 @@ list-style: none;
     color: var(--primery-brend-color);
     background-color: var(--secondery-bcg-color);
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     text-decoration: none;
     cursor: pointer;
@@ -168,6 +182,9 @@ list-style: none;
 .portfolio-button:focus {
     color: var(--text-white-color);
     background-color: var(--active-btn-color);
+}
+.portfolio-work-card {
+    background: var(--backgrond-white-color)
 }
 .portfolio-work-title {
     color: var(--primery-bcg-color);
